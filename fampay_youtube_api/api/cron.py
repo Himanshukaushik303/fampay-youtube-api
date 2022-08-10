@@ -3,14 +3,13 @@ from django_cron import CronJobBase, Schedule
 # Google API
 from googleapiclient.discovery import build
 import apiclient
-
 from .serializers import VideosSerializer
 from .models import *
 from fampay_youtube_api import settings
 from datetime import datetime, timedelta
 
 class FetchVideos(CronJobBase):
-    RUN_EVERY_MINS = 0.1 # every 2 hour
+    RUN_EVERY_MINS = 1 # every 1 minute
 
     schedule = Schedule(run_every_mins=RUN_EVERY_MINS)
     code = 'api.fetch_videos'    # a unique code
@@ -29,10 +28,8 @@ class FetchVideos(CronJobBase):
                 res = request.execute()
             except apiclient.errors.HttpError as err:
                 code = err.resp.status
-                if not (code == 400 or code == 403):
-                    print("Status Code: ",code)
-                    break
-        
+                print("Status Code: ",code)
+                break        
 
         #Storing the data in DB
         for object in res["items"]:
