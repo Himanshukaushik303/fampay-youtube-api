@@ -17,11 +17,17 @@
 
 ## Api Data
 
-![Alt text]( ./images/fampay.png)
+<img src="https://github.com/Himanshukaushik303/fampay-youtube-api/blob/main/fampay_youtube_api/images/fampay.png" width="100%" height="75%"/>
+<img src="https://github.com/Himanshukaushik303/fampay-youtube-api/blob/main/fampay_youtube_api/images/fampay2.png" width="100%" height="75%"/>
 
-### Api Data
-![Alt text]( ./images/fampay2.png)
+## Filters
 
-### Filters
-![Alt text]( ./images/fampay3.png)
+<img src="https://github.com/Himanshukaushik303/fampay-youtube-api/blob/main/fampay_youtube_api/images/fampay3.png" width="100%" height="75%"/>
+
+## Running Crons and Server
+
+<img src="https://github.com/Himanshukaushik303/fampay-youtube-api/blob/main/fampay_youtube_api/images/fampay4.png" width="100%" height="75%"/>
+
+
+
 
