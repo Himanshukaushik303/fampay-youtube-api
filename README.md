@@ -14,3 +14,14 @@
 5. Run the server using `python manage.py runserver`
 
 6. Go to local host server displayed at the terminal. 
+
+## Api Data
+
+![Alt text]( ./images/fampay.png)
+
+### Api Data
+![Alt text]( ./images/fampay2.png)
+
+### Filters
+![Alt text]( ./images/fampay3.png)
+
